@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GITHUB LIST</string>
+    <string name="titulo">LISTA DE REPOSITORIOS</string>
+    <string name="nombre_del_proyecto">Nombre del proyecto : </string>
+    <string name="nombre_usuario">Nombre usuario : </string>
+    <string name="descripcion">Descripcion :</string>
+    <string name="lenguaje">Lenguaje :</string>
+</resources>
