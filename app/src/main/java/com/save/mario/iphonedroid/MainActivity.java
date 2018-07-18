@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         pb= findViewById(R.id.pb);
         pb.setVisibility(View.VISIBLE);
         invocarWS();
-
     }
 
     private void invocarWS() {
@@ -165,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                         for (int i =0 ; i<listaEx.size();i++) {
                             itemOwner = new ItemOwner(listaEx.get(i).getId().toString()
                                     ,listaEx.get(i).getOwner().getLogin()
-                                    ,listaEx.get(i).getDescription());
+                                    ,listaEx.get(i).getName());
                             lista.add(itemOwner);
                         }
                         configurarRV();

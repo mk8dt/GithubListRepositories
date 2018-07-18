@@ -23,8 +23,8 @@ public interface APIRest {
     @GET("repositories/{id}")
     Call<Example> getRepository(@Path("id") String id);
 
-    @GET("search/repositories/q{name}")
-    Call<ArrayList<Example>> getRepositoryName(@Query("name") String name);
+    @GET("users/{username}/repos")
+    Call<ArrayList<Example>> getRepositoryName(@Path("username") String name);
 
 
 }
